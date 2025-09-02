@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WedMeGood</title>
+
+    <!--custon css  -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- bootstrap style link -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <div class="backgroundMainImg">
+
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img class="img-fluid navbarlogo"
+                        src="https://wedmegood-home.netlify.app/logo.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav navbarlists me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" aria-current="page" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Venues</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Contact Us</a>
+                        </li>
+
+                    </ul>
+                    <button class=" navbtnimg " type="submit"><img class="btninnerimg img-fluid"
+                            src="images/search.png"></button>
+                    <button class=" navbtn rounded-pill" type="submit">Log In</button>
+
+                </div>
+            </div>
+        </nav>
+
+        <!-- Heading section -->
+
+        <div>
+            <h1 class="mainheading text-light">Your Wedding, Your Way</h1>
+            <h4 class="midHeading text-light">Find the best wedding vendors with thousands of trusted reviews</h4>
+        </div>
+
+        <!-- search section -->
+
+        <div class="searchsection container row-lg-12 d-flex justify-content-center">
+            <div class="col-lg-4 col-md-3"><input class="input1" placeholder="search venues"></div>
+            <div class="col-lg-4 col-md-3"><input class="input2" placeholder="Search City"></div>
+            <div class="col-lg-2 col-md-2"><button class="inputbtn">Get Started</button></div>
+        </div>
+
+        <p class="lastpara">Popular Searches: Wedding Photographers in India | Bridal Makeup Artists in IndiaWedding |
+            Cards in India | Wedding Venues in India</p>
+
+    </div>
+
+    <!-- second page -->
+
+    <div class="container secondSection">
+        <h4 class="secondpageheading">Popular Venue Searches</h2>
+
+
+            <!-- Swiper -->
+
+            <div #swiperRef="" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img class="img-fluid firstswiperimg" src="https://wedmegood-home.netlify.app/Image/mumbai.jpg">
+                        <div class="overlay"></div>
+                        <div class="text-content">
+                            <h3>Mumbai Venue</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, ducimus ratione
+                                aspernatur voluptatem iure</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"><img class="img-fluid firstswiperimg" src="https://wedmegood-home.netlify.app/Image/Bangalore.jpeg">
+                        <div class="overlay"></div>
+                        <div class="text-content">
+                            <h3>Banglore Venue</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, ducimus ratione
+                                aspernatur voluptatem iure</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"><img class="img-fluid firstswiperimg" src="https://wedmegood-home.netlify.app/Image/Florida.jpg">
+                        <div class="overlay"></div>
+                        <div class="text-content">
+                            <h3>Florida Venue</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, ducimus ratione
+                                aspernatur voluptatem iure</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"><img class="img-fluid firstswiperimg" src="https://wedmegood-home.netlify.app/Image/California.jpg">
+                        <div class="overlay"></div>
+                        <div class="text-content">
+                            <h3>California Venue</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, ducimus ratione
+                                aspernatur voluptatem iure</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"><img class="img-fluid firstswiperimg" src="https://wedmegood-home.netlify.app/Image/Fransisco.jpg">
+                        <div class="overlay"></div>
+                        <div class="text-content">
+                            <h3>Francisco Venue</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, ducimus ratione
+                                aspernatur voluptatem iure</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            loop: true,
+            autoplay: true,
+            spaceBetween: 30,
+
+            breakpoints: {
+                320: {
+                    slidesPerView: 1,
+                },
+                425: {
+                    slidesPerView: 1,
+                },
+                768: {
+                    slidesPerView: 2,
+                },
+                1004: {
+                    slidesPerView: 3,
+                },
+
+            },
+
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+
+        });
+
+
+    </script>
+
+    <!-- third page swiper -->
+
+    <!-- Swiper -->
+    <div class="container">
+        <h4 class="secondpageheading">Best Ceremonies</h4>
+        <div #swiperRef="" class="swiper mySwiper1">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img class="img-fluid secondswiperimg"
+                        src="https://wedmegood-home.netlify.app/Image/full-shot-people-posing-wedding.jpg">
+
+                </div>
+                <div class="swiper-slide"><img class="img-fluid secondswiperimg"
+                        src="https://wedmegood-home.netlify.app/Image/woman-beige-indian-dress-bends-feet-wedding-couple.jpg">
+                </div>
+                <div class="swiper-slide"><img class="img-fluid secondswiperimg"
+                        src="https://wedmegood-home.netlify.app/Image/beautiful-woman-long-red-dress-walks-around-city-with-her-husband.jpg">
+                </div>
+                <div class="swiper-slide"><img class="img-fluid secondswiperimg"
+                        src="https://wedmegood-home.netlify.app/Image/9411715_3619.jpg"></div>
+                <div class="swiper-slide"><img class="img-fluid secondswiperimg"
+                        src="https://wedmegood-home.netlify.app/Image/full-shot-smiley-bride-posing-with-flowers.jpg">
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper1", {
+                slidesPerView: 4,
+                loop: true,
+                autoplay: true,
+                spaceBetween: 30,
+                pagination: {
+                    el: ".swiper-pagination",
+                    type: "fraction",
+                },
+                breakpoints: {
+                    320: {
+                        slidesPerView: 1,
+                    },
+                    425: {
+                        slidesPerView: 2,
+                    },
+                    768: {
+                        slidesPerView: 3,
+                    },
+                    1004: {
+                        slidesPerView: 4,
+                    },
+
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+        </script>
+    </div>
+
+    <!-- fourth page -->
+
+    <div class="container">
+        <h4 class="fourthpageheading">Wedding Categories</h4>
+        <div class="firstrow row-lg-12 d-flex justify-content-center mb-3">
+            <div class="venues col-lg-6 col-xl-5 d-flex">
+                <div class="col-content p-3">
+                    <h4 class="innercolhead">Venues</h4>
+                    <p class="innercolpara">Banquet Hall | Farmhouse | Lawn</p>
+                </div>
+                <div class="innercolimg"><img class="img-fluid rounded-start-pill innercolimgg"
+                        src="https://wedmegood-home.netlify.app/venues%20(1).jpg">
+                </div>
+            </div>
+            <div class="BridalWear col-lg-6 col-xl-5 d-flex">
+                <div class="col-content p-3">
+                    <h4 class="innercolhead">Bridal Wear</h4>
+                    <p class="innercolpara">Bridal Lehengas | Kanjeevaram | Saree</p>
+                </div>
+                <div class="innercolimg "><img class="img-fluid innercolimgg rounded-start-pill "
+                        src="https://wedmegood-home.netlify.app/bridal-wear.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="secondrow row-lg-12 d-flex justify-content-center mb-3">
+            <div class="weddingmakeup col-lg-6 col-xl-5 d-flex">
+                <div class="col-content p-3">
+                    <h4 class="innercolhead">Wedding Makeup</h4>
+                    <p class="innercolpara">Bridal Makeup | Family Makeup</p>
+                </div>
+                <div class="innercolimg"><img class="img-fluid rounded-start-pill innercolimgg"
+                        src="https://wedmegood-home.netlify.app/makeup.jpg">
+                </div>
+            </div>
+            <div class="photography  col-lg-6 col-xl-5 d-flex">
+                <div class="col-content p-3">
+                    <h4 class="innercolhead">Photography</h4>
+                    <p class="innercolpara">Wedding Shoot | Photooot | DSLR</p>
+                </div>
+                <div class="innercolimg"><img class="img-fluid rounded-start-pill innercolimgg"
+                        src="https://wedmegood-home.netlify.app/photographers.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="thirdrow row-lg-12 d-flex justify-content-center mb-3">
+            <div class="weddingplanner col-lg-6 col-xl-5 d-flex">
+                <div class="col-content p-3">
+                    <h4 class="innercolhead">Wedding Planner</h4>
+                    <p class="innercolpara">Wedding Shoot | Photooot | DSLR</p>
+                </div>
+                <div class="innercolimg"><img class="img-fluid rounded-start-pill innercolimgg"
+                        src="https://wedmegood-home.netlify.app/planning-decor.jpg">
+                </div>
+            </div>
+            <div class="marriagehall col-lg-6 col-xl-5 d-flex">
+                <div class="col-content p-3">
+                    <h4 class="innercolhead">Marriage Hall</h4>
+                    <p class="innercolpara">Wedding Shoot | Photooot | DSLR</p>
+                </div>
+                <div class="innercolimg"><img class="img-fluid rounded-start-pill innercolimgg"
+                        src="https://wedmegood-home.netlify.app/venues.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- fifth section -->
+
+    <div class="container">
+        <h4 class="fifthpageheading">WMG Inhouse Services</h4>
+        <div class="cardsonerow row-lg-12 d-flex mb-3">
+            <div class="col-lg-6">
+                <div class="card rounded cardscontent ">
+                    <img class="img-fluid cardinnerimg rounded" src="https://wedmegood-home.netlify.app/card-1img.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Wedsta</h5>
+                        <p class="card-text text-center">WMG At Home, Family Makeup Services</p>
+                        <p class="divbtn text-center"><button class="cardsbtn rounded">Know More</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="card rounded cardscontent">
+                    <img class="img-fluid cardinnerimg rounded" src="https://wedmegood-home.netlify.app/card-2-img.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Genie Services</h5>
+                        <p class="card-text text-center">Plan your dream wedding in your budget</p>
+                        <p class="divbtn text-center"><button class="cardsbtn rounded">Know More</button></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cardsonerow row-lg-12 d-flex mb-3">
+            <div class="col-lg-6">
+                <div class="card rounded cardscontent ">
+                    <img class="img-fluid cardinnerimg rounded " src="https://wedmegood-home.netlify.app/card-3-img.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Venue Booking Services</h5>
+                        <p class="card-text text-center">Best Price Guaranteed</p>
+                        <p class="divbtn text-center"><button class="cardsbtn rounded">Know More</button></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="card rounded cardscontent">
+                    <img class="img-fluid cardinnerimg rounded" src="https://wedmegood-home.netlify.app/card-4-img.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Destination Wedding</h5>
+                        <p class="card-text text-center">Tours and Trips for Destination Wedding</p>
+                        <p class="divbtn text-center"><button class="cardsbtn rounded">Know More</button></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- SIXTH PAGE -->
+
+    <div class="sixthpage container rounded-3 mb-5">
+        <div class="sixthrow row-lg-12 d-flex">
+            <div class="sixthcol col-lg-7">
+                <h4 class="sixthsectionheading">Download The WedMeGood Mobile App Today!</h4>
+                <div class="threeheadings d-flex">
+                    <div class="headingandimg d-flex">
+                        <h5 class="innerheading">Save Wedding Ideas</h5>
+                    </div>
+                    <div class="headingandimg d-flex">
+                        <h5 class="innerheading">Shortlist Vendors</h5>
+                    </div>
+                    <div class="headingandimg d-flex">
+                        <h5 class="innerheading">Get Free Wedding Checklist</h5>
+                    </div>
+                </div>
+                <p class="sixthpagepara">You will receive an SMS with a link to download the App</p>
+                <div class="row2innerdiv d-flex">
+                    <img class="sixthpageimg img-fluid" src="phone.png" alt="">
+                    <h5 class="sixthheadh5">+91</h5>
+                    <input class="sixthinp" type="integer">
+                </div>
+                <button class="btnsixthpg rounded-pill text-light">Download App</button>
+            </div>
+            <div class="mobileimgdiv col-lg-4"><img class="img-fluid mobileimg"
+                    src="https://wedmegood-home.netlify.app/mobile-img.png"></div>
+        </div>
+
+    </div>
+    <!--SEVENTH CONTAINER-->
+    <div class="eigthpagecont container col-lg-12">
+        <hr>
+        <div class="eightpagecontent row d-flex mt-5">
+            <div class="firstdiv col-lg-3">
+                <div><img src="https://wedmegood-home.netlify.app/footer-Logo.jpg" width="200px">
+                    <h6 class="headcol2 mt-1">We connect the Multiverse!</h6>
+                    <h6 class="headcol2 mt-4"><b>Connect With Us</b></h6>
+                </div>
+                <div class="socialmedialogos">
+                    <a href="#facebook"><img class="feaneimg"
+                            src="https://cdn-icons-png.flaticon.com/128/2504/2504903.png" alt="facebook logo"
+                            height="25px" width="30px"></a>
+                    <a href="#twitter"><img class="feaneimg"
+                            src="https://cdn-icons-png.flaticon.com/128/2504/2504947.png" alt="Twitter logo"
+                            height="25px" width="30px"></a>
+                    <a href="#linkedin"><img class="feaneimg"
+                            src="https://cdn-icons-png.flaticon.com/128/2504/2504923.png" alt="LinkedIn logo"
+                            height="25px" width="30px"></a>
+                    <a href="#instagram"><img class="feaneimg"
+                            src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" alt="Instagram logo"
+                            height="25px" width="30px"></a>
+                </div>
+            </div>
+            <div class="seconddiv col-lg-3">
+                <h6 class="headcol1 mt-1 ">Wedding Ideas</h6>
+
+                <ul class="ulll">
+                    <li><a class="antag" href="#">Wedding Blog</a></li>
+                    <li><a class="antag" href="#">Wedding Inspiration Gallery</a></li>
+                    <li><a class="antag" href="#">Real wedding</a></li>
+                    <li><a class="antag" href="#">Submit Wedding</a></li>
+                </ul>
+            </div>
+            <div class="thirddiv col-lg-3">
+                <h6 class="headcol1 mt-1 ">Photo Gallery</h6>
+
+                <ul class="ulll"></a></li>
+                    <li><a class="antag" href="#">Bridal Wear</a></li>
+                    <li><a class="antag" href="#">Wedding Jewellery</a></li>
+                    <li><a class="antag" href="#">Bridal Makeup & Hair</a></li>
+                    <li><a class="antag" href="#">Wedding Decor</a></li>
+                    <li><a class="antag" href="#">Wedding Photography</a></li>
+                    <li><a class="antag" href="#">Groom Wear</a></li>
+                    <li><a class="antag" href="#">Invitations & Favors</a></li>
+                    <li><a class="antag" href="#">Wedding Accessories</a></li>
+                </ul>
+            </div>
+            <div class="fourhtdiv col-lg-3">
+                <h6 class="headcol1 mt-1 ">Wedding Invitation Maker</h6>
+
+                <ul class="ulll">
+                    <li><a class="antag" href="#">Wedding card designs</a></li>
+                    <li><a class="antag" href="#">Save the Date Templates</a></li>
+                    <li><a class="antag" href="#">Invitation Video Templates</a></li>
+                    <li><a class="antag" href="#">Cancellation Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

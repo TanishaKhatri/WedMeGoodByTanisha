@@ -1,0 +1,696 @@
+.backgroundMainImg {
+    background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0)), url(images/wed-home-bg.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body{
+   overflow-x: hidden;
+}
+
+.navbarlogo {
+    width: 180px;
+}
+
+.navbar {
+    background-color: #e72e77;
+}
+
+.navbtnimg {
+    background-color: #b4245d;
+    border: 1px solid;
+    margin-right: 60px;
+    border-color: white;
+    border-radius: 50%;
+    width: 42px;
+}
+
+.btninnerimg {
+    height: 20px;
+    width: 20px;
+}
+
+.navbtn {
+    background-color: #b4245d;
+    padding: 5px;
+    margin-right: 50px;
+    color: white;
+    border-style: none;
+    width: 120px;
+}
+
+.navbarlists {
+    margin-left: 85px;
+    gap: 25px;
+}
+
+.mainheading {
+    margin-top: 170px;
+    text-align: center;
+}
+
+.midHeading {
+    text-align: center;
+}
+
+.input1 {
+    width: 100%;
+    color: grey;
+    outline: none;
+    padding: 8px;
+}
+
+.input2 {
+    width: 100%;
+    padding: 8px;
+    outline: none;
+    color: grey;
+}
+
+.inputbtn {
+    width: 100%;
+    height: 100%;
+    color: white;
+    border-style: none;
+    background-color: #e72e77;
+}
+
+.lastpara {
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+    font-size: small;
+}
+
+.secondSection {
+    margin-top: 50px;
+}
+
+.secondpageheading {
+    color: rgb(52, 52, 52);
+}
+.swiper-slide .overlay{
+    position:absolute;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0));
+}
+.text-content{
+    position: absolute;
+    bottom: 7px;
+    color: #fff;
+}
+.text-content h3{
+    font-size: 20px;
+    margin: 0;
+}.text-content p{
+    font-size: 14px;
+    margin: 5px 0 0;
+}
+
+
+/* swiper style */
+  .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 300px;
+      margin: 20px auto;
+    }
+
+
+    /* swiper two */
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      border-radius: 15px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 300px;
+      margin: 20px auto;
+    }
+    .secondswiperimg{
+        border-radius: 15px;
+    }
+.fourthpageheading{
+    color: rgb(52, 52, 52);
+    margin-top: 90px;
+    margin-bottom: 20px;
+}    
+.venues{
+    width: 100%;
+    background-color: #d8dffc;
+    box-shadow: 1px 2px 10px rgba(29, 28, 28, 0.6);
+}
+.BridalWear{
+    width: 100%;
+    background-color: #f4d5c2;
+    box-shadow: 1px 2px 10px rgba(29, 28, 28, 0.6);
+}
+.weddingmakeup{
+    background-color: #dfb2ad;
+    box-shadow: 1px 2px 10px rgba(29, 28, 28, 0.6);
+}
+.photography{
+    background-color: #d8dffc;
+    box-shadow: 1px 2px 10px rgba(29, 28, 28, 0.6);
+}
+.weddingplanner{
+     background-color: #cfcdb8;
+    box-shadow: 1px 2px 8px rgba(29, 28, 28, 0.6);
+}
+.marriagehall{
+    background-color: #cfcdb8;
+    box-shadow: 1px 2px 10px rgba(29, 28, 28, 0.6);
+}
+.firstrow{
+    height: 120px;
+    gap: 10px;
+}
+.secondrow{
+    height: 120px;
+    gap: 10px;
+}
+.thirdrow{
+    height: 120px;
+    gap: 10px;
+}
+/* .innercolimg:hover{
+    transform: scale(1.1);
+} */
+.innercolimg .innercolimgg{
+    height: 100%;
+}
+.innercolhead{
+    color: #444;
+    font-size: large;
+}
+.innercolpara{
+    color: #696868;
+    font-size: medium;
+}
+
+.cardsonerow{
+    gap: 15px;
+}
+.cardinnerimg{
+    height: 230px !important;
+    padding: 5px;
+    border-radius: 10%;
+}
+.cardsbtn{
+    border-color: #e72e77;
+    color: #e72e77;
+    background-color: transparent;
+}
+.cardsbtn:hover{
+    background-color: #e72e77;
+    color: white;
+    transform: scale(1.1);
+}
+.cardscontent{
+    box-shadow: 1px 2px 7px rgba(57, 57, 57, 0.5);
+}
+
+/* sixthpage */
+.sixthpage{
+    background-color:#ffebe8;
+    margin-top: 50px;
+}
+.mobileimg{
+    width: 55%;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+.lastcontainerimg{
+    height: 20px;
+    width: 20px;
+}
+.lastcontainerimg:hover{
+    transform: scale(1.1);
+}
+.sixthsectionheading{
+    color: #a72257;
+}
+.innerheading{
+    color: #e72e77;
+    font-size: small;
+}
+.threeheadings{
+    gap: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.headingandimg{
+    gap: 5px;
+}
+.sixthrow{
+    justify-content: center;
+}
+.sixthcol{
+    margin-top: 80px;
+}
+.sixthpagepara{
+    color: #a72257;
+    font-weight: 600;
+}
+.row2innerdiv {
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.sixthheadh5 {
+    color: rgb(200, 51, 111);
+}
+.sixthinp {
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid !important;
+    font-size: 16px;
+    color: #e72e77;
+}
+.sixthinp {
+    border-style: none;
+}
+
+.btnsixthpg {
+    background-color: #e72e77;
+    border-style: none;
+    margin-top: 25px;
+    margin-left: 80px;
+    padding: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 180px;
+}
+.btnsixthpg:hover{
+    background-color: white;
+    border-color: #e72e77 !important;
+    color: #e72e77 !important;
+}
+
+/* seventh page */
+
+.headcol1 {
+    margin-left: 25px;
+    color: #fc5095;
+}
+.headcol2{
+    color: #fc5095;
+}
+.ulll {
+    list-style: none;
+}
+
+.antag {
+    color: grey;
+    font-size: small;
+    text-decoration: none;
+}
+
+.eightpagecontent {
+    height: 400px;
+}
+.antag:hover{
+    color: #f3176f;
+}
+.feaneimg:hover{
+    transform: scale(1.1);
+}
+.fifthpageheading{
+    color: rgb(52, 52, 52);
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+ 
+@media screen and (min-width:319px) and (max-width:425px) {
+
+    /* media query for first page */
+    body{
+        overflow-x: hidden;
+    }
+    .mainheading {
+        margin-top: 130px;
+    }
+
+    .midHeading {
+        font-size: small;
+    }
+
+    .searchsection {
+        flex-direction: column;
+    }
+
+    .input1 {
+        padding: unset;
+    }
+
+    .input2 {
+        padding: unset;
+    }
+
+    .lastpara {
+        font-size: x-small;
+    }
+
+    /* second page */
+    .secondpageheading{
+        text-align: center;
+    }
+
+    /* fourth page */
+    .firstrow{
+        flex-direction: column;
+    }
+    .secondrow{
+        flex-direction: column;
+    }
+    .thirdrow{
+        flex-direction: column;
+    }
+    .fourthpageheading{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .firstrow{
+        margin-top: 100px;
+    }
+    .secondrow{
+        margin-top: 135px;
+    }
+    .thirdrow{
+        margin-top: 146px;
+    }
+    .col-content{
+        padding: unset;
+
+    }
+    .innercolhead{
+        font-size: medium;
+    }
+    .innercolpara{
+        font-size: small;
+    }
+    .fifthpageheading{
+        text-align: center;
+        margin-top: 100px !important;
+    }
+    .cardsonerow{
+        flex-direction: column;
+    }
+    .cardinnerimg{
+        height: 150px !important;
+    }
+    .sixthrow{
+        flex-direction: column-reverse;
+    }
+    .sixthcol{
+        margin: unset;
+        text-align: center;
+    }
+    .threeheadings{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .innerheading{
+        font-size: xx-small;
+    }
+    .headingandimg{
+        gap: unset;
+    }
+    .sixthpagepara{
+        font-size: medium;
+    }
+    .btnsixthpg{
+        margin-left: unset;
+        margin-bottom: 50px;
+    }
+    .eightpagecontent{
+        text-align: center;
+    }
+    .headcol1{
+        margin-left: unset;
+    }
+    .ulll{
+        padding: unset;
+    }
+    .navbarlists{
+        margin: unset;
+    }
+    .sixthinp{
+        width: 135px;
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:568px) {
+
+    /*media query for first page  */
+    .navbarlists{
+        margin: unset;
+    }
+    .backgroundMainImg {
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), transparent), url(images/wed-home-bg.jpg);
+        height: 350px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .mainheading {
+        margin-top: 140px;
+    }
+
+    .midHeading {
+        font-size: smaller;
+    }
+
+    .input1 {
+        padding: unset;
+    }
+
+    .input2 {
+        padding: unset;
+    }
+
+    .inputbtn {
+        height: 100%;
+        font-size: x-small;
+    }
+
+    .lastpara {
+        font-size: x-small;
+    }
+    .secondpageheading{
+        text-align: center;
+    }
+    .fourthpageheading{
+        text-align: center;
+        margin-top: 45px;
+    }
+    .fifthpageheading{
+        text-align: center;
+    }
+    .innercolhead{
+        font-size: small;
+    }
+    .innercolpara{
+        font-size: x-small;
+    }
+    .cardsonerow{
+        flex-direction: column;
+    }
+    .sixthrow{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .mobileimg{
+        max-width: 25% !important;
+        margin-left: unset;
+    }
+   .sixthcol{
+    margin-top: unset;
+   }
+   .row2innerdiv{
+    margin-left: unset;
+   }
+   .btnsixthpg{
+    margin-left: unset;
+    margin-bottom: 20px;
+   }
+   .eightpagecontent{
+        text-align: center;
+    }
+    .headcol1{
+        margin-left: unset;
+    }
+    .ulll{
+        padding: unset;
+    }
+
+}
+
+
+@media  screen and ((min-width:568px) and (max-width: 1024px)){
+        /*media query for first page  */
+    .navbarlists{
+        margin: unset;
+    }
+    .backgroundMainImg {
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), transparent), url(images/wed-home-bg.jpg);
+        height: 350px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .mainheading {
+        margin-top: 150px;
+    }
+
+    .midHeading {
+        font-size: smaller;
+    }
+
+    .input1 {
+        padding: unset;
+    }
+
+    .input2 {
+        padding: unset;
+    }
+
+    .inputbtn {
+        height: 100%;
+        font-size: x-small;
+    }
+
+    .lastpara {
+        font-size: x-small;
+    }
+    .secondpageheading{
+        text-align: center;
+    }
+    .fourthpageheading{
+        text-align: center;
+        margin-top: 45px;
+    }
+    .fifthpageheading{
+        margin-top: 45px;
+        text-align: center;
+    }
+    .innercolhead{
+        font-size: medium;
+    }
+    .innercolpara{
+        font-size: small;
+    }
+    .innerheading{
+        font-size: small;
+    }
+    .row2innerdiv{
+        margin-left: unset;
+    }
+    .btnsixthpg{
+        margin-left: unset;
+        margin-bottom: 50px;
+    }
+    .mobileimg{
+        margin-top: 98px;
+    }
+    .eightpagecontent{
+        text-align: center;
+    }
+    .headcol1{
+        margin-left: unset;
+    }
+    .ulll{
+        padding: unset;
+    }
+}
+@media  screen and ((min-width:1439px) and (max-width: 2570px))  {
+    .navbarlists{
+        margin-left: 300px !important;
+        margin-right: unset;
+        gap: 90px;
+    }
+    .backgroundMainImg{
+        height: 490px;
+    }
+    .mainheading{
+        margin-top: 250px;
+        font-size: 50px;
+    }
+    .secondpageheading{
+        font-size: xx-large;
+        margin-top: 50px;
+    }
+    .fourthpageheading{
+        font-size: xx-large;
+        text-align: center;
+    }
+    .innercolhead{
+        font-size: x-large;
+    }
+    .innercolpara{
+        font-size: larger;
+    }
+    .fifthpageheading{
+        font-size: xx-large;
+    }
+    .sixthsectionheading{
+        font-size: 34px;
+    }
+    .innerheading{
+        font-size: larger;
+    }
+    .sixthpagepara{
+        font-size: larger;
+    }
+    .mobileimg{
+        width: 40%;
+        margin-left: 120px;
+    }
+}
